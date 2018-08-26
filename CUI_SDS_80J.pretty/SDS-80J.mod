@@ -1,0 +1,125 @@
+PCBNEW-LibModule-V1  
+# encoding utf-8
+Units mm
+$INDEX
+CUI_SDS-80J
+$EndINDEX
+$MODULE CUI_SDS-80J
+Po 0 0 0 15 00000000 00000000 ~~
+Li CUI_SDS-80J
+Cd 
+Sc 00000000
+At STD
+Op 0 0 0
+.SolderMask 0
+.SolderPaste 0
+T0 -7.37934 -7.5548 1.00263 1.00263 0 0.05 N V 21 "CUI_SDS-80J"
+T1 -6.74273 13.9016 1.00263 1.00263 0 0.05 N V 21 "VAL**"
+DS -10 -6 -10 12.5 0.127 21
+DS -10 12.5 10 12.5 0.127 21
+DS 10 12.5 10 -6 0.127 21
+DS -10.25 12.75 -10.25 -6.25 0.05 26
+DS -10.25 -6.25 10.25 -6.25 0.05 26
+DS 10.25 -6.25 10.25 12.75 0.05 26
+DS 10.25 12.75 -10.25 12.75 0.05 26
+DC 10.6 0.1 10.7 0.1 0.2 21
+DC 10.6 0.1 10.7 0.1 0.2 24
+DS -10 -6 -10 12.5 0.127 24
+DS -10 12.5 10 12.5 0.127 24
+DS 10 12.5 10 -6 0.127 24
+DS 10 -6 -10 -6 0.127 24
+DS -10 -6 -0.7 -6 0.127 21
+DS 10 -6 0.7 -6 0.127 21
+$PAD
+Sh "2" C 1.95 1.95 0 0 0
+Dr 1.3 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "5" C 1.95 1.95 0 0 0
+Dr 1.3 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -2.5 -2.5
+$EndPAD
+$PAD
+Sh "1" C 1.95 1.95 0 0 0
+Dr 1.3 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 5 0
+$EndPAD
+$PAD
+Sh "4" C 1.95 1.95 0 0 0
+Dr 1.3 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 2.5 -2.5
+$EndPAD
+$PAD
+Sh "3" C 1.95 1.95 0 0 0
+Dr 1.3 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -5 0
+$EndPAD
+$PAD
+Sh "S1" C 1.95 1.95 0 0 0
+Dr 1.3 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -2.5 10
+$EndPAD
+$PAD
+Sh "S2" C 1.95 1.95 0 0 0
+Dr 1.3 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 2.5 10
+$EndPAD
+$PAD
+Sh "6" C 1.95 1.95 0 0 0
+Dr 1.3 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 7.5 -2.5
+$EndPAD
+$PAD
+Sh "7" C 1.95 1.95 0 0 0
+Dr 1.3 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -7.5 -2.5
+$EndPAD
+$PAD
+Sh "8" C 1.95 1.95 0 0 0
+Dr 1.3 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 0 -5
+$EndPAD
+$PAD
+Sh "Hole" C 2.4 2.4 0 0 0
+Dr 2.4 0 0
+At HOLE N 00E0FFFF
+Po -7.5 5
+$EndPAD
+$PAD
+Sh "Hole" C 2.4 2.4 0 0 0
+Dr 2.4 0 0
+At HOLE N 00E0FFFF
+Po 7.5 5
+$EndPAD
+$EndMODULE CUI_SDS-80J

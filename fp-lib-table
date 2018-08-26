@@ -1,4 +1,6 @@
 (fp_lib_table
-  (lib (name Connector_DIN)(type KiCad)(uri ${KIPRJMOD}/Connector_DIN.pretty)(options "")(descr ""))
-  (lib (name Connector_Dsub)(type KiCad)(uri ${KIPRJMOD}/Connector_Dsub.pretty)(options "")(descr ""))
+  (lib (name Connector_DIN)(type KiCad)(uri ${KIPRJMOD}/Connector_DIN.pretty)(options "")(descr "")(disabled))
+  (lib (name Connector_Dsub)(type KiCad)(uri ${KIPRJMOD}/Connector_Dsub.pretty)(options "")(descr "")(disabled))
+  (lib (name Connector_TE_AMP_HD15)(type KiCad)(uri ${KIPRJMOD}/Connector_TE_AMP_HD15.pretty)(options "")(descr ""))
+  (lib (name SDS-80J)(type Legacy)(uri ${KIPRJMOD}/CUI_SDS_80J.pretty/SDS-80J.mod)(options "")(descr ""))
 )
