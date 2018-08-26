@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 7)
+    (drawings 9)
     (tracks 52)
     (zones 0)
     (modules 5)
@@ -368,6 +368,12 @@
     (pad Hole np_thru_hole circle (at 7.5 5 90) (size 2.4 2.4) (drill 2.4) (layers *.Cu *.Mask F.SilkS))
   )
 
+  (gr_text "150Ω resistors" (at 198.12 93.98) (layer B.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
+  )
+  (gr_text "use with 15/24kHz vga monitor" (at 194.945 117.475) (layer B.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
+  )
   (gr_text "nec pc8801mkII vga v1.0" (at 199.39 93.98) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
