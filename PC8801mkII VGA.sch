@@ -28,18 +28,18 @@ $EndComp
 Text Label 5225 3000 0    50   ~ 0
 GND
 Text Label 4925 2600 2    50   ~ 0
-Red
-Text Label 5525 2600 0    50   ~ 0
 Green
+Text Label 5525 2600 0    50   ~ 0
+Red
 Text Label 5225 2400 0    50   ~ 0
 Blue
 Text Label 4925 2700 2    50   ~ 0
-12V
+NC
 NoConn ~ 5525 2700
 Text Label 4925 2800 2    50   ~ 0
-H-Sync
-Text Label 5525 2800 0    50   ~ 0
 V-Sync
+Text Label 5525 2800 0    50   ~ 0
+H-Sync
 $Comp
 L Connector:DB15_Female_HighDensity V1
 U 1 1 5B82E1A2
@@ -107,35 +107,17 @@ Connection ~ 5225 3000
 Wire Wire Line
 	7125 3100 6850 3100
 Wire Wire Line
-	4325 3100 4325 2600
-Wire Wire Line
 	4325 2600 4925 2600
 Wire Wire Line
 	5225 2400 6350 2400
 Wire Wire Line
 	6350 2400 6350 3500
 Wire Wire Line
-	6350 3500 6550 3500
-Wire Wire Line
 	5525 2600 6425 2600
-Wire Wire Line
-	6425 2600 6425 3300
-Wire Wire Line
-	6425 3300 6550 3300
 Wire Wire Line
 	5525 2800 8550 2800
 Wire Wire Line
-	8550 2800 8550 3700
-Wire Wire Line
-	8550 3700 7725 3700
-Wire Wire Line
 	4925 2800 4925 4175
-Wire Wire Line
-	4925 4175 8450 4175
-Wire Wire Line
-	8450 4175 8450 3500
-Wire Wire Line
-	8450 3500 7725 3500
 NoConn ~ 4925 2700
 $Comp
 L Device:R R1
@@ -148,8 +130,6 @@ F 3 "~" H 6700 3100 50  0001 C CNN
 	1    6700 3100
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	6550 3100 4325 3100
 $Comp
 L Device:R R2
 U 1 1 5B82FD72
@@ -176,4 +156,28 @@ F 3 "~" H 6700 3500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6850 3500 7125 3500
+Text Label 5525 2700 0    50   ~ 0
+12V
+Wire Wire Line
+	8550 2800 8550 3500
+Wire Wire Line
+	8550 3500 7725 3500
+Wire Wire Line
+	8550 4175 8550 3700
+Wire Wire Line
+	8550 3700 7725 3700
+Wire Wire Line
+	4925 4175 8550 4175
+Wire Wire Line
+	6350 3500 6550 3500
+Wire Wire Line
+	6425 2600 6425 3100
+Wire Wire Line
+	6425 3100 6550 3100
+Wire Wire Line
+	4325 2600 4325 3375
+Wire Wire Line
+	4325 3375 6550 3375
+Wire Wire Line
+	6550 3375 6550 3300
 $EndSCHEMATC
