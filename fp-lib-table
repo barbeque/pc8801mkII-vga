@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Connector_DIN)(type KiCad)(uri ${KIPRJMOD}/Connector_DIN.pretty)(options "")(descr ""))
+  (lib (name Connector_Dsub)(type KiCad)(uri ${KIPRJMOD}/Connector_Dsub.pretty)(options "")(descr ""))
+)
