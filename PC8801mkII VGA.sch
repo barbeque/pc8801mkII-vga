@@ -46,7 +46,7 @@ U 1 1 5B82E1A2
 P 7425 3500
 F 0 "V1" H 7425 4367 50  0000 C CNN
 F 1 "15kHz VGA" H 7425 4276 50  0000 C CNN
-F 2 "Connector_Dsub:DSUB-15_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 6475 3900 50  0001 C CNN
+F 2 "Connector_Dsub:DSUB-15-HD_Female_Horizontal_P2.29x1.98mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm" H 6475 3900 50  0001 C CNN
 F 3 " ~" H 6475 3900 50  0001 C CNN
 	1    7425 3500
 	1    0    0    -1  
