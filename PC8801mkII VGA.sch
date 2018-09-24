@@ -87,10 +87,10 @@ Wire Wire Line
 	7125 3000 5225 3000
 NoConn ~ 4925 2700
 $Comp
-L Device:R RRed
+L Device:R RRed1
 U 1 1 5B82F80D
 P 6175 4150
-F 0 "RRed" V 5968 4150 50  0000 C CNN
+F 0 "RRed1" V 5968 4150 50  0000 C CNN
 F 1 "150" V 6059 4150 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6105 4150 50  0001 C CNN
 F 3 "~" H 6175 4150 50  0001 C CNN
@@ -98,10 +98,10 @@ F 3 "~" H 6175 4150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R RGreen
+L Device:R RGreen1
 U 1 1 5B82FD72
 P 6175 4475
-F 0 "RGreen" V 5968 4475 50  0000 C CNN
+F 0 "RGreen1" V 5968 4475 50  0000 C CNN
 F 1 "150" V 6059 4475 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6105 4475 50  0001 C CNN
 F 3 "~" H 6175 4475 50  0001 C CNN
