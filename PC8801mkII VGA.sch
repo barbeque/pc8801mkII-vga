@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:PC8801mkII VGA-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -16,9 +17,9 @@ $EndDescr
 Text Label 5225 3000 0    50   ~ 0
 GND
 Text Label 4925 2600 2    50   ~ 0
-Red
-Text Label 5525 2600 0    50   ~ 0
 Green
+Text Label 5525 2600 0    50   ~ 0
+Red
 Text Label 5225 2400 0    50   ~ 0
 Blue
 Text Label 4925 2700 2    50   ~ 0
@@ -86,10 +87,10 @@ Wire Wire Line
 	7125 3000 5225 3000
 NoConn ~ 4925 2700
 $Comp
-L Device:R R1
+L Device:R RRed
 U 1 1 5B82F80D
 P 6175 4150
-F 0 "R1" V 5968 4150 50  0000 C CNN
+F 0 "RRed" V 5968 4150 50  0000 C CNN
 F 1 "150" V 6059 4150 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6105 4150 50  0001 C CNN
 F 3 "~" H 6175 4150 50  0001 C CNN
@@ -97,10 +98,10 @@ F 3 "~" H 6175 4150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R2
+L Device:R RGreen
 U 1 1 5B82FD72
 P 6175 4475
-F 0 "R2" V 5968 4475 50  0000 C CNN
+F 0 "RGreen" V 5968 4475 50  0000 C CNN
 F 1 "150" V 6059 4475 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6105 4475 50  0001 C CNN
 F 3 "~" H 6175 4475 50  0001 C CNN
@@ -112,7 +113,7 @@ L Device:R R3
 U 1 1 5B82FE62
 P 6175 4750
 F 0 "R3" V 5968 4750 50  0000 C CNN
-F 1 "150" V 6059 4750 50  0000 C CNN
+F 1 "RBlue" V 6059 4750 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6105 4750 50  0001 C CNN
 F 3 "~" H 6175 4750 50  0001 C CNN
 	1    6175 4750
@@ -138,17 +139,7 @@ F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 5225 2700 50  0001
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4925 2600 4700 2600
-Wire Wire Line
-	4700 2600 4700 4150
-Wire Wire Line
 	4700 4150 6025 4150
-Wire Wire Line
-	5525 2600 5750 2600
-Wire Wire Line
-	5750 2600 5750 4475
-Wire Wire Line
-	5750 4475 6025 4475
 Wire Wire Line
 	5225 2400 4850 2400
 Wire Wire Line
@@ -187,4 +178,18 @@ Wire Wire Line
 	7900 5025 5525 5025
 Wire Wire Line
 	5525 5025 5525 2800
+Wire Wire Line
+	4275 4475 4275 2600
+Wire Wire Line
+	4275 2600 4925 2600
+Wire Wire Line
+	4275 4475 6025 4475
+Wire Wire Line
+	4700 4150 4700 3075
+Wire Wire Line
+	4700 3075 5775 3075
+Wire Wire Line
+	5775 3075 5775 2600
+Wire Wire Line
+	5525 2600 5775 2600
 $EndSCHEMATC
