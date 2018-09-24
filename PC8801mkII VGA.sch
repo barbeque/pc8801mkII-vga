@@ -192,4 +192,6 @@ Wire Wire Line
 	5775 3075 5775 2600
 Wire Wire Line
 	5525 2600 5775 2600
+Text Notes 5600 2400 0    50   ~ 0
+Note: this is HORIZONTALLY FLIPPED from how the port is,\nlooking at the back of the computer.\n(e.g. looking at the back of the computer, Green is on the RIGHT)
 $EndSCHEMATC
