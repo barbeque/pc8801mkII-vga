@@ -92,7 +92,7 @@ U 1 1 5B82F80D
 P 6175 4150
 F 0 "RRed1" V 5968 4150 50  0000 C CNN
 F 1 "150" V 6059 4150 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6105 4150 50  0001 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 6105 4150 50  0001 C CNN
 F 3 "~" H 6175 4150 50  0001 C CNN
 	1    6175 4150
 	0    1    1    0   
@@ -103,7 +103,7 @@ U 1 1 5B82FD72
 P 6175 4475
 F 0 "RGreen1" V 5968 4475 50  0000 C CNN
 F 1 "150" V 6059 4475 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6105 4475 50  0001 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 6105 4475 50  0001 C CNN
 F 3 "~" H 6175 4475 50  0001 C CNN
 	1    6175 4475
 	0    1    1    0   
@@ -114,7 +114,7 @@ U 1 1 5B82FE62
 P 6175 4750
 F 0 "R3" V 5968 4750 50  0000 C CNN
 F 1 "RBlue" V 6059 4750 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6105 4750 50  0001 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 6105 4750 50  0001 C CNN
 F 3 "~" H 6175 4750 50  0001 C CNN
 	1    6175 4750
 	0    1    1    0   
