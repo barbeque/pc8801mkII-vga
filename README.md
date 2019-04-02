@@ -9,6 +9,10 @@ This is a video adapter I built to go from my 1984 NEC PC-8801mkII's digital RGB
  * TE AMP 1-1734530-1 (A35116-ND)
  * 3x 150-ohm resistors
  * 270° male-male 8-pin DIN cable (see below)
+ 
+# Confirmed Working On
+ * NEC PC-8801mkII
+ * Fujitsu FM-7
 
 # Assembly directions
  1. Solder both connectors to the board. The top side is the one marked with the LeadedSolder URL and the board name.
