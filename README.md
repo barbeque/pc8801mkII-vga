@@ -14,6 +14,7 @@ This is a video adapter I built to go from my 1984 NEC PC-8801mkII's digital RGB
  * NEC PC-8801mkII
  * Fujitsu FM-7
  * Fujitsu FM-New7
+ * NEC PC-6001mkII
 
 # Assembly directions
  1. Solder both connectors to the board. The top side is the one marked with the LeadedSolder URL and the board name.
