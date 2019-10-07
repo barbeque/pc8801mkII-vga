@@ -1,5 +1,5 @@
 # PC-8801mkII VGA
-This is a video adapter I built to go from my 1984 NEC PC-8801mkII's digital RGB-out port to a VGA monitor. If you have an SR or newer, you can (and should) just use analogue RGB to VGA adapters instead.
+This is a video adapter I built to go from my 1984 NEC PC-8801mkII's 3-bit digital RGB-out port to a VGA monitor. If you have an SR or newer, you can (and should) just use analogue RGB to VGA adapters instead.
 
 ![Assembled adapter](pictures/pc88-vga-1.jpg)
 ![Dragon Slayer](pictures/dragon-slayer-gameplay.jpg)
