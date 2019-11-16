@@ -5,8 +5,8 @@ This is a video adapter I built to go from my 1984 NEC PC-8801mkII's 3-bit digit
 ![Dragon Slayer](pictures/dragon-slayer-gameplay.jpg)
 
 # Bill of Materials
- * CUI SDS-80J (CP-2380-ND)
- * TE AMP 1-1734530-1 (A35116-ND)
+ * CUI SDS-80J 270-degree right-angle DIN female socket (CP-2380-ND)
+ * TE AMP 1-1734530-1 VGA connector (A35116-ND)
  * 3x 150-ohm resistors
  * 270° male-male 8-pin DIN cable (see below)
  
