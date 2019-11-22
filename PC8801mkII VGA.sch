@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:PC8801mkII VGA-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -22,8 +22,6 @@ Text Label 5525 2600 0    50   ~ 0
 Red
 Text Label 5225 2400 0    50   ~ 0
 Blue
-Text Label 4925 2700 2    50   ~ 0
-NC
 NoConn ~ 5525 2700
 Text Label 4925 2800 2    50   ~ 0
 H-Sync
@@ -121,8 +119,6 @@ F 3 "~" H 6175 4750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6850 3500 7125 3500
-Text Label 5525 2700 0    50   ~ 0
-12V
 Wire Wire Line
 	5225 3400 5225 3800
 NoConn ~ 7125 3600
@@ -193,5 +189,9 @@ Wire Wire Line
 Wire Wire Line
 	5525 2600 5775 2600
 Text Notes 5600 2400 0    50   ~ 0
-Note: this is HORIZONTALLY FLIPPED from how the port is,\nlooking at the back of the computer.\n(e.g. looking at the back of the computer, Green is on the RIGHT)
+Note: this is HORIZONTALLY FLIPPED from how the port is,\nlooking at the back of the computer.\n(e.g. looking at the back of the computer, Green is on the RIGHT)\n\nThis means that pin numbers DO NOT line up with what you read on \nother schematics.
+Text Label 4925 2700 2    50   ~ 0
+12V
+Text Label 5525 2700 0    50   ~ 0
+NC
 $EndSCHEMATC
