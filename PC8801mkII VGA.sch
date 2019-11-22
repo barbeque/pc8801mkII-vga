@@ -189,9 +189,9 @@ Wire Wire Line
 Wire Wire Line
 	5525 2600 5775 2600
 Text Notes 5600 2400 0    50   ~ 0
-Note: this is HORIZONTALLY FLIPPED from how the port is,\nlooking at the back of the computer.\n(e.g. looking at the back of the computer, Green is on the RIGHT)\n\nThis means that pin numbers DO NOT line up with what you read on \nother schematics.
+Note: this is HORIZONTALLY FLIPPED from how the port is,\nlooking at the back of the computer.\n(e.g. looking at the back of the computer, Green is on the RIGHT)
 Text Label 4925 2700 2    50   ~ 0
-12V
-Text Label 5525 2700 0    50   ~ 0
 NC
+Text Label 5525 2700 0    50   ~ 0
+12V
 $EndSCHEMATC
