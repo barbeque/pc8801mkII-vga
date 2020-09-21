@@ -190,7 +190,5 @@ Wire Wire Line
 Text Notes 5600 2400 0    50   ~ 0
 Looking at the back of the computer, green is on the left side
 Text Label 4925 2700 2    50   ~ 0
-NC
-Text Label 5525 2700 0    50   ~ 0
 12V
 $EndSCHEMATC
