@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:PC8801mkII VGA-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -189,7 +188,7 @@ Wire Wire Line
 Wire Wire Line
 	5525 2600 5775 2600
 Text Notes 5600 2400 0    50   ~ 0
-Note: this is HORIZONTALLY FLIPPED from how the port is,\nlooking at the back of the computer.\n(e.g. looking at the back of the computer, Green is on the RIGHT)
+Looking at the back of the computer, green is on the left side
 Text Label 4925 2700 2    50   ~ 0
 NC
 Text Label 5525 2700 0    50   ~ 0
