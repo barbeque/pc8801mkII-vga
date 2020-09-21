@@ -88,7 +88,7 @@ L Device:R RRed1
 U 1 1 5B82F80D
 P 6175 4150
 F 0 "RRed1" V 5968 4150 50  0000 C CNN
-F 1 "150" V 6059 4150 50  0000 C CNN
+F 1 "150Ω" V 6059 4150 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 6105 4150 50  0001 C CNN
 F 3 "~" H 6175 4150 50  0001 C CNN
 	1    6175 4150
@@ -99,21 +99,21 @@ L Device:R RGreen1
 U 1 1 5B82FD72
 P 6175 4475
 F 0 "RGreen1" V 5968 4475 50  0000 C CNN
-F 1 "150" V 6059 4475 50  0000 C CNN
+F 1 "150Ω" V 6059 4475 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 6105 4475 50  0001 C CNN
 F 3 "~" H 6175 4475 50  0001 C CNN
 	1    6175 4475
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R3
+L Device:R RBlue1
 U 1 1 5B82FE62
-P 6175 4750
-F 0 "R3" V 5968 4750 50  0000 C CNN
-F 1 "RBlue" V 6059 4750 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 6105 4750 50  0001 C CNN
-F 3 "~" H 6175 4750 50  0001 C CNN
-	1    6175 4750
+P 6175 4800
+F 0 "RBlue1" V 5968 4800 50  0000 C CNN
+F 1 "150Ω" V 6059 4800 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 6105 4800 50  0001 C CNN
+F 3 "~" H 6175 4800 50  0001 C CNN
+	1    6175 4800
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -140,9 +140,9 @@ Wire Wire Line
 Wire Wire Line
 	4850 2400 4850 4750
 Wire Wire Line
-	4850 4750 6025 4750
+	4850 4750 6025 4800
 Wire Wire Line
-	6325 4750 6850 4750
+	6325 4800 6850 4750
 Wire Wire Line
 	6850 4750 6850 3500
 Wire Wire Line
