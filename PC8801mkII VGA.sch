@@ -118,8 +118,6 @@ F 3 "~" H 6175 4800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6850 3500 7125 3500
-Wire Wire Line
-	5225 3400 5225 3800
 NoConn ~ 7125 3600
 Connection ~ 5225 3000
 $Comp
@@ -144,17 +142,13 @@ Wire Wire Line
 Wire Wire Line
 	6325 4800 6850 4750
 Wire Wire Line
-	6850 4750 6850 3500
-Wire Wire Line
 	6325 4475 6750 4475
-Wire Wire Line
-	6750 4475 6750 3300
 Wire Wire Line
 	6750 3300 7125 3300
 Wire Wire Line
 	6325 4150 6625 4150
 Wire Wire Line
-	6625 4150 6625 3100
+	6625 4150 6625 3550
 Wire Wire Line
 	6625 3100 7125 3100
 Wire Wire Line
@@ -191,4 +185,71 @@ Text Notes 5600 2400 0    50   ~ 0
 Looking at the back of the computer, green is on the left side
 Text Label 4925 2700 2    50   ~ 0
 12V
+$Comp
+L Device:C_Small C3
+U 1 1 605A2EFB
+P 6525 3550
+F 0 "C3" V 6296 3550 50  0000 C CNN
+F 1 "0.1µF" V 6387 3550 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6525 3550 50  0001 C CNN
+F 3 "~" H 6525 3550 50  0001 C CNN
+	1    6525 3550
+	0    1    1    0   
+$EndComp
+Connection ~ 6625 3550
+Wire Wire Line
+	6625 3550 6625 3100
+Connection ~ 6850 3775
+Wire Wire Line
+	6850 3775 6850 4750
+$Comp
+L Device:C_Small C2
+U 1 1 605A51E3
+P 6200 3650
+F 0 "C2" V 5971 3650 50  0000 C CNN
+F 1 "0.1µF" V 6062 3650 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6200 3650 50  0001 C CNN
+F 3 "~" H 6200 3650 50  0001 C CNN
+	1    6200 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5800 3775 6850 3775
+$Comp
+L Device:C_Small C1
+U 1 1 605A6432
+P 5700 3775
+F 0 "C1" V 5471 3775 50  0000 C CNN
+F 1 "0.1µF" V 5562 3775 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5700 3775 50  0001 C CNN
+F 3 "~" H 5700 3775 50  0001 C CNN
+	1    5700 3775
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6425 3550 5225 3550
+Wire Wire Line
+	5225 3400 5225 3550
+Connection ~ 5225 3550
+Wire Wire Line
+	5225 3550 5225 3650
+Wire Wire Line
+	6100 3650 5225 3650
+Connection ~ 5225 3650
+Wire Wire Line
+	5225 3650 5225 3775
+Wire Wire Line
+	5600 3775 5225 3775
+Connection ~ 5225 3775
+Wire Wire Line
+	5225 3775 5225 3800
+Wire Wire Line
+	6750 3300 6750 3650
+Wire Wire Line
+	6850 3500 6850 3775
+Wire Wire Line
+	6300 3650 6750 3650
+Connection ~ 6750 3650
+Wire Wire Line
+	6750 3650 6750 4475
 $EndSCHEMATC
