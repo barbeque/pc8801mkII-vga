@@ -1,15 +1,14 @@
-G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.1.8-0-10_14)*
-G04 #@! TF.CreationDate,2021-12-04T19:30:23-07:00*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.1.5-0-10_14)*
+G04 #@! TF.CreationDate,2021-12-04T19:34:15-07:00*
 G04 #@! TF.ProjectId,PC8801mkII VGA,50433838-3031-46d6-9b49-49205647412e,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Legend,Top*
 G04 #@! TF.FilePolarity,Positive*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (5.1.8-0-10_14)) date 2021-12-04 19:30:23*
+G04 Created by KiCad (PCBNEW (5.1.5-0-10_14)) date 2021-12-04 19:34:15*
 %MOMM*%
 %LPD*%
-G01*
 G04 APERTURE LIST*
 %ADD10C,0.250000*%
 %ADD11C,0.300000*%
@@ -745,8 +744,7 @@ X195930000Y-108015000D01*
 D15*
 X202130000Y-96715000D02*
 G75*
-G03*
-X202130000Y-96715000I-100000J0D01*
+G03X202130000Y-96715000I-100000J0D01*
 G01*
 D14*
 X214430000Y-97315000D02*
