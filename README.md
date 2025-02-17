@@ -8,6 +8,9 @@ Please note that this is just a level shifter and pinout adapter. It is _not_ a 
 
 Please consult [the 15kHz modern monitors list](http://15khz.wikidot.com/) for models of monitor which may work with this adapter.
 
+# Current Status
+**WORKING**, but improvements are likely to arrive in the coming days to deal with the "jailbar" interference pattern on some monitors.
+
 # Bill of Materials
  * CUI SDS-80J 270-degree right-angle DIN female socket (CP-2380-ND)
  * TE AMP 1-1734530-1 VGA connector (A35116-ND)
