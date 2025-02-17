@@ -1154,6 +1154,141 @@
 				)
 			)
 		)
+		(symbol "Device:C_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R_Small_US"
 			(pin_numbers hide)
 			(pin_names
@@ -1620,6 +1755,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 119.38) (xy 88.9 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ab0c0f6-7b51-442e-9998-d531936213bd")
+	)
+	(wire
+		(pts
 			(xy 154.94 102.235) (xy 137.16 102.235)
 		)
 		(stroke
@@ -1647,6 +1792,16 @@
 			(type default)
 		)
 		(uuid "6d65058e-d0c1-49d9-9500-7cf757c31cfe")
+	)
+	(wire
+		(pts
+			(xy 83.82 109.855) (xy 88.9 109.855)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72bad068-fa86-4485-bd03-4570e71b24f1")
 	)
 	(wire
 		(pts
@@ -1718,6 +1873,16 @@
 		)
 		(uuid "f4e4eea6-73b6-4d0d-ada8-d20159546d69")
 	)
+	(wire
+		(pts
+			(xy 83.82 100.33) (xy 88.9 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6a9f82b-e71a-4e4d-a9be-93109c2587f1")
+	)
 	(text "Looking at the back of the computer, green is on the left side"
 		(exclude_from_sim no)
 		(at 34.925 52.07 0)
@@ -1730,7 +1895,8 @@
 		(uuid "e0d8d896-1814-4d90-9a99-3382e180af4b")
 	)
 	(label "Green_VGA"
-		(at 78.74 109.855 0)
+		(at 88.9 109.855 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1741,6 +1907,7 @@
 	)
 	(label "H-Sync"
 		(at 55.88 71.12 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1751,6 +1918,7 @@
 	)
 	(label "Blue"
 		(at 56.515 119.38 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1761,6 +1929,7 @@
 	)
 	(label "V-Sync"
 		(at 154.94 104.775 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1771,6 +1940,7 @@
 	)
 	(label "H-Sync"
 		(at 154.94 99.695 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1781,6 +1951,7 @@
 	)
 	(label "Red"
 		(at 71.12 66.04 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1791,6 +1962,7 @@
 	)
 	(label "12V"
 		(at 55.88 68.58 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1801,6 +1973,7 @@
 	)
 	(label "Red_VGA"
 		(at 154.94 76.835 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1811,6 +1984,7 @@
 	)
 	(label "Red"
 		(at 56.515 100.33 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1821,6 +1995,7 @@
 	)
 	(label "Green_VGA"
 		(at 154.94 81.915 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1831,6 +2006,7 @@
 	)
 	(label "Blue"
 		(at 63.5 60.96 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1841,6 +2017,7 @@
 	)
 	(label "V-Sync"
 		(at 71.12 71.12 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1851,6 +2028,7 @@
 	)
 	(label "Green"
 		(at 56.515 109.855 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1861,6 +2039,7 @@
 	)
 	(label "Blue_VGA"
 		(at 154.94 86.995 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1870,7 +2049,8 @@
 		(uuid "d2261941-a231-4540-89ee-db2fc64ffe80")
 	)
 	(label "Blue_VGA"
-		(at 78.74 119.38 0)
+		(at 88.9 119.38 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1880,7 +2060,8 @@
 		(uuid "def50221-e2de-4983-ab5f-b6cf414ad88e")
 	)
 	(label "Red_VGA"
-		(at 78.74 100.33 0)
+		(at 88.9 100.33 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1891,6 +2072,7 @@
 	)
 	(label "Green"
 		(at 55.88 66.04 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2243,6 +2425,141 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 81.28 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7444c7f2-ecbd-4369-880b-41d986f43ea0")
+		(property "Reference" "C3"
+			(at 81.2863 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1µF"
+			(at 81.2863 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm"
+			(at 81.28 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 81.28 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1be8ffb8-5d37-4be6-ac47-e9260fae045e")
+		)
+		(pin "1"
+			(uuid "0609ba2e-03bc-484b-97b5-50df070f29a4")
+		)
+		(instances
+			(project "PC8801mkII VGA"
+				(path "/1c73fffa-9199-4680-b78d-90f5881fe849"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 81.28 109.855 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "825d5c86-4ade-4336-8605-7c4599d8a18c")
+		(property "Reference" "C2"
+			(at 81.28 103.505 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1µF"
+			(at 81.28 106.045 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm"
+			(at 81.28 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 81.28 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "06453d45-a229-4545-96f9-b23e0956b11f")
+		)
+		(pin "1"
+			(uuid "f0042725-336f-4146-8e9d-122e4dd617dc")
+		)
+		(instances
+			(project "PC8801mkII VGA"
+				(path "/1c73fffa-9199-4680-b78d-90f5881fe849"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 63.5 81.915 270)
 		(unit 1)
@@ -2382,6 +2699,74 @@
 			(project ""
 				(path "/1c73fffa-9199-4680-b78d-90f5881fe849"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 81.28 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9026adc-9077-46da-9c7f-dd18a81688d4")
+		(property "Reference" "C1"
+			(at 81.2863 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1µF"
+			(at 81.2863 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm"
+			(at 81.28 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 81.28 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "da3c69e0-cb5b-407e-922a-ef7b10d1e6c4")
+		)
+		(pin "1"
+			(uuid "08a4fc6d-f6b6-4e5f-845b-b7560fdd7c00")
+		)
+		(instances
+			(project ""
+				(path "/1c73fffa-9199-4680-b78d-90f5881fe849"
+					(reference "C1")
 					(unit 1)
 				)
 			)
