@@ -13,6 +13,10 @@ This board was developed as part of a project for [the Leaded Solder blog](https
 # Current Status
 **WORKING**, but improvements are likely to arrive in the coming days to deal with the "jailbar" interference pattern on some monitors.
 
+# Version History
+ - v1.8: In development.
+ - v1.7: Added bypass capacitors that ruined the video quality. If you have one of these older boards (e.g. from PCBWay,) do not install the capacitors.
+
 # Bill of Materials
  * CUI SDS-80J 270-degree right-angle DIN female socket (CP-2380-ND)
  * TE AMP 1-1734530-1 VGA connector (A35116-ND)
