@@ -4,7 +4,9 @@ This is a video adapter I built to go from my 1984 NEC PC-8801mkII's 3-bit digit
 ![Assembled adapter](pictures/pc88-vga-1.jpg)
 ![Dragon Slayer](pictures/dragon-slayer-gameplay.jpg)
 
-Please note that this is just a level shifter and pinout adapter. It is _not_ a scan converter; if your monitor is not capable of 15kHz (or 24kHz for some machines) video, it will not work with this adapter. Please consult [the 15kHz modern monitors list](http://15khz.wikidot.com/) for models of monitor which may work with this adapter.
+Please note that this is just a level shifter and pinout adapter. It is _not_ a scan converter; if your monitor is not capable of 15kHz (or 24kHz for some machines) video, it will not work with this adapter. In other words, your monitor must match the output sync rate of the computer being adapted.
+
+Please consult [the 15kHz modern monitors list](http://15khz.wikidot.com/) for models of monitor which may work with this adapter.
 
 # Bill of Materials
  * CUI SDS-80J 270-degree right-angle DIN female socket (CP-2380-ND)
@@ -13,19 +15,18 @@ Please note that this is just a level shifter and pinout adapter. It is _not_ a 
  * 270° male-male 8-pin DIN cable (see below)
  
 # Confirmed Working On
- * NEC PC-8801mkII
- * Fujitsu FM-7
- * Fujitsu FM-New7
- * NEC PC-6001mkII (only 8 colour mode works, obviously)
+ * Fujitsu FM-7, Fujitsu FM-New7, Fujitsu FM-8
  * Hitachi Basic Master Level III Mark II
- * Sanyo MBC-550, MBC-555
-
-# In Testing
- * NEC PC-8001
+ * NEC PC-6001mkII (only 8 colour mode works, obviously)
+ * NEC PC-8001, PC-8001mkIISR
+ * NEC PC-8801mkII
  * NEC PC-9801UV
+ * Sanyo MBC-550, MBC-555
+ * Sony SMC-777 (8-colour mode)
 
 # Display Devices Tested With
  * NEC MultiSync 1970NX LCD
+ * NEC MultiSync 3D CRT
  * [GBS-Control upscaler](https://github.com/ramapcsx2/gbs-control)
 
 # Assembly directions
