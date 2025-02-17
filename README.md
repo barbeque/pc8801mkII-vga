@@ -8,13 +8,15 @@ Please note that this is just a level shifter and pinout adapter. It is _not_ a 
 
 Please consult [the 15kHz modern monitors list](http://15khz.wikidot.com/) for models of monitor which may work with this adapter.
 
+This board was developed as part of a project for [the Leaded Solder blog](https://www.leadedsolder.com/). Chances are, if you have a computer that needs this adapter, you will probably enjoy the other projects on the blog too. Please consider [backing the blog on Patreon](https://www.patreon.com/leadedsolder) to provide funds that will be used to make more open-source boards for the old-computer community.
+
 # Current Status
 **WORKING**, but improvements are likely to arrive in the coming days to deal with the "jailbar" interference pattern on some monitors.
 
 # Bill of Materials
  * CUI SDS-80J 270-degree right-angle DIN female socket (CP-2380-ND)
  * TE AMP 1-1734530-1 VGA connector (A35116-ND)
- * 3x 150-ohm through-hole resistors
+ * 3x 150Ω through-hole resistors
  * 270° male-male 8-pin DIN cable (see below)
  
 # Confirmed Working On
