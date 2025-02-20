@@ -17,6 +17,9 @@ This board was developed as part of a project for [the Leaded Solder blog](https
  - v1.8 (2025): In development.
  - v1.7 (2021): Added bypass capacitors that ruined the video quality. If you have one of these older boards (e.g. from PCBWay,) do not install the capacitors.
 
+# Ordering a board
+You can use files from the `gerber` directory, the zip files in the Releases section, or [order the board from the Shared Projects section of PCBway](https://www.pcbway.com/project/shareproject/NEC_PC_8801mkII_digital_RGB_video_to_VGA_adapter.html). Note that I receive a small PCBway credit for boards purchased through that platform.
+
 # Bill of Materials
  * CUI SDS-80J 270-degree right-angle DIN female socket (CP-2380-ND)
  * TE AMP 1-1734530-1 VGA connector (A35116-ND)
